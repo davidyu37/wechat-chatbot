@@ -1,0 +1,25 @@
+{
+  "name": "wechat-chatbot",
+  "version": "1.0.0",
+  "description": "Minimum requirement to receive message from WeChat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WeChat",
+    "Chatbot"
+  ],
+  "author": "David Yu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "wechat": "^2.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
